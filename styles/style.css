@@ -3,10 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --cor-primaria: #0C0C0C;
-    --cor-secundaria: #9B3922;
-    --cor-terciaria: #481E14;
-    --cor-hover: #F2613F;
+    --cor-primaria: #000000;
+    --cor-secundaria: #282A3A;
+    --cor-terciaria: #735F32;
+    --cor-hover: #C69749;
 
     --fonte-primaria: "Krona One", sans-serif;
     --fonte-secundaria: "Montserrat", sans-serif;
@@ -37,7 +37,7 @@ body {
 }
 
 .cabecalho__menu__link:hover {
-    background-color: #F2613F;
+    background-color: var(--cor-hover);
     color: var(--cor-primaria);
     border-radius: 80px;
 }
